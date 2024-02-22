@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CoreBusiness\ADM.Domain\ADM.Domain.csproj" />
+    <ProjectReference Include="..\..\CoreBusiness\Memory.Domain\Memory.Domain.csproj" />
+    <ProjectReference Include="..\..\CoreBusiness\WORK.Domain\WORK.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
